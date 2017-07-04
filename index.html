@@ -1,0 +1,129 @@
+<!DOCTYPE htmL>
+<head>
+<title>
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="assets/images/fighter1.gif">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+<!-- game sounds -->
+<audio id="winTune">
+  <source src="assets/audio/pass.mp4" type="audio/mp4">
+  <source src="assets/audio/fail.mp4" type="audio/mp4">
+ <source src="assets/audio/attack.mp4" type="audio/mp4">
+</audio>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">StarWar Game<div id="winId"> </div></div>
+  <div class="panel-body">
+    	<div class="container">
+    	<div class="row">
+			<div class="col-md-offset-1 col-md-10" id="selectFighetTxt">
+			Select your prefered Fighter
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10">
+				<div class="row" id="fightersId">
+
+
+
+
+					
+					<div class="col-md-3 thumbnail fighters fighterSize" id="fighter1" value="40" data-power="9" data-ipower="9">
+						<div class="fighterName"> Giovvani </div>
+						<img src="assets/images/fighter1.gif" class="fighter-img" >
+						<div class="caption" id="fighter1Health">
+						
+						  Health Point:
+						</div>
+
+					</div>
+
+					<div class="col-md-3 thumbnail fighters fighterSize" id="fighter2" value="45" data-power="8" data-ipower="8">
+						<div class="fighterName"> Cesaer</div>
+						<img src="assets/images/fighter2.gif" class="fighter-img">
+						<div class="caption" id="fighter2Health">
+						
+						  Health Point:
+						</div>
+					</div>
+					<div class="col-md-3 thumbnail fighters fighterSize" id="fighter3" value="50" data-power ="8" data-ipower="8">
+						<div class="fighterName"> Desmond</div>
+						<img src="assets/images/fighter3.gif" class="fighter-img">
+						
+						
+						<br>
+						<div class="caption" id="fighter3Health">
+						  Health Point:
+						</div>
+					</div>
+					<div class="col-md-3 thumbnail fighters fighterSize" id="fighter4" value="55" data-power="10" data-ipower="10">
+						<div class="fighterName"> Nick</div>
+						<img src="assets/images/fighter4.gif" class="fighter-img">
+						
+						<br>
+						<br>
+						
+						<div class="caption" id="fighter4Health">
+						  Health Point:
+						</div>
+					</div>
+				
+				</div>
+			</div>
+			
+	 </div>
+ </div>
+ 
+
+		
+		<div class="panel-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8 enemiesPos">
+						<!-- Attakers here -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-4 " id="gameText"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 myPos">
+						<!-- fighter 1 -->
+					</div>
+					<div class="col-md-1" id="attackBtnId">
+						<button class="btn btn-md btn-danger" id="attackBtn">ATTACK</button>
+					</div>
+					<div class="col-md-3 activeEnemyPos">
+						<!-- fighter 2 -->
+						<!-- this div cannot be empty at startup -->
+
+					</div>
+					
+				</div>
+
+			</div>
+			
+			
+		</div>
+
+		
+	<div class="panel-footer">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-12" id="myfooter"> &copy;2017 <a href:"mailto:desmondtoyus@gmail.com"> Desmond Ademiluyi</a></div>
+				</div>
+			</div>
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+.fighterSize
+{
+/*border: thin solid green;*/
+height: 250px;
+width: 170px;
+
+}
+.activeEnemy
+{
+border: thin solid red;
+color: red;
+text-align: center;
+position: relative;
+
+
+}
+.enemies
+{
+border: thin solid green;
+}
+.me
+{
+border: thin solid blue;
+color: blue;
+text-align: center;
+position: relative;
+
+}
+.fighter-img{
+	width: 100px;
+	height: 100px;
+}
+#fighter1Health,
+#fighter2Health,
+#fighter3Health,
+#fighter4Health{
+	color: green;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#gameText{
+	color: red;
+	font-size: 14px;
+	text-align: center;
+}
+#winId{
+	margin-left: 60%;
+
+}
+#selectFighetTxt{
+
+	color: blue;
+	font-size: 16px;
+	text-align: left;
+}
+#myfooter{
+	text-align: center;
+}
+.fighters
+{
+position: relative;
+
+}
